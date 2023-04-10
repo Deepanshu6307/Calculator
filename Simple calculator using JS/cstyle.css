@@ -1,0 +1,92 @@
+/* Whole Document */
+*{
+    box-sizing: border-box;
+}
+
+
+/* Main Container */
+#calculator{
+    width: 45%;
+    height: 80%;
+    min-width: 300px;
+    min-height: 400px;
+    background-color: lightgrey;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 80px;
+    padding: 10px;
+}
+
+
+/* Heading */
+h1{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    font-weight: 500;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/* Screen */
+#display-container{
+    font-size: 2.8rem;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    background-color: whitesmoke;
+    width: 100%;
+    height: 20%;
+    color: blue;
+    min-height: 100px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+#display{
+    margin: 0.5rem;
+    vertical-align: text-bottom;
+}
+
+
+/* Buttons Section */
+#buttons-container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    width: 100%;
+    height: 60%;
+    min-height: 300px;
+    background-color: lightgrey;
+}
+
+button{
+    width: 25%;
+    height: 20%;
+    min-height: 60px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: white;
+    font-size: 1rem;
+    transition-duration: 0.5s;
+}
+
+button:hover{
+    background-color: lightpink;
+}
+
+.red {
+    background-color: #c14444;
+    color: white;
+}
+
+.red:hover{
+    background-color: #a14e4e;
+}
+
+#button-zero{
+    width: 50%;
+}
